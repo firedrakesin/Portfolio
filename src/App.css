@@ -42,7 +42,7 @@ body {
   padding: 20px;
   color: rgb(53, 162, 159);
   margin: 40px;
-  margin-left: 200px;
+  margin-left: 60px;
 }
 
 .profile-pic {
@@ -50,7 +50,7 @@ body {
 }
 
 .profile-pic img {
-  width: 200px;
+  width: 220px;
   height: auto;
 }
 
@@ -70,4 +70,11 @@ body {
   font-size: 16px;
   color: rgb(151, 254, 237);
   
+}
+
+.intro-gif{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 40px;
 }

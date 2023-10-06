@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import pic from "../Images/profilepic.jpg"
+// import pp from "../Images/on.avif"
 
 function Introduction() {
   return (
@@ -36,6 +37,11 @@ HAVE FUN 👽 !
             `}
         </pre>
       </motion.div>
+
+    {/* <div className='intro-gif'>
+        <img src={pp} alt="Profile" />
+    </div> */}
+    
     </div>
   );
 }
