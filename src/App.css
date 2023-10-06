@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Apply the animation to your navbar and introduction */
+.navbar, .introduction {
+  animation: backgroundAnimation 10s linear infinite;
+  background: linear-gradient(45deg, #3498db, #8e44ad); /* Replace with your preferred background colors */
+  background-size: 200% 200%;
+}
+
+body {
+  background-color: rgb(3, 11, 37); 
+  margin-top: 40px; 
+  padding: 0; 
+}
+
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(11, 102, 106);
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 80px; 
+  height: 80px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  font-family: 'Your Stylish Font', sans-serif;
+  padding: 20px;
+  color: rgb(53, 162, 159);
+  margin: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-pic {
+  margin-right: 20px;
+}
+
+.profile-pic img {
+  width: 200px;
+  border-radius: 60%;
+  height: auto;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-text h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.intro-text p {
+  font-size: 16px;
+  color: rgb(151, 254, 237);
+  margin-top: 0;
 }
