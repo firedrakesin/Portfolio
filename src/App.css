@@ -1,18 +1,3 @@
-@keyframes backgroundAnimation {
-  0% {
-    background-position: 0% 0%;
-  }
-  100% {
-    background-position: 100% 0%;
-  }
-}
-
-/* Apply the animation to your navbar and introduction */
-.navbar, .introduction {
-  animation: backgroundAnimation 10s linear infinite;
-  background: linear-gradient(45deg, #3498db, #8e44ad); /* Replace with your preferred background colors */
-  background-size: 200% 200%;
-}
 
 body {
   background-color: rgb(3, 11, 37); 
@@ -57,30 +42,32 @@ body {
   padding: 20px;
   color: rgb(53, 162, 159);
   margin: 40px;
+  margin-left: 200px;
 }
 
 .profile-pic {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .profile-pic img {
   width: 200px;
-  border-radius: 60%;
   height: auto;
 }
 
 .intro-text {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .intro-text h1 {
   font-size: 20px;
-  margin-bottom: 5px;
+  
 }
 
 .intro-text p {
+  text-align: left;
   font-size: 16px;
   color: rgb(151, 254, 237);
-  margin-top: 0;
+  
 }

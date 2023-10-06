@@ -21,13 +21,18 @@ function Introduction() {
         transition={{ duration: 1, delay: 0.4 }}
         whileHover={{ x: 40, y: -8 }} 
       >
-        <h2>Hello, I'm Garima Yadav</h2>
+        <h2>Hey, I'm Garima Yadav</h2>
         <pre style={{ fontSize: '16px', fontFamily: 'monospace' }}>
-            {`
-                A Full-Stack Developer 
-                passionate about creating web applications.
-                
-                HAVE FUN ! 
+            {`I am a backend developer with expertise in Node.js.
+I have experience in building scalable, secure and reliable web applications
+using various frameworks and technologies. 
+I enjoy solving complex problems and learning new skills. 
+I am passionate about creating high-quality code 
+that follows best practices and industry standards. 
+I am always looking for new challenges and opportunities to grow as a developer.  
+
+
+HAVE FUN 👽 ! 
             `}
         </pre>
       </motion.div>
