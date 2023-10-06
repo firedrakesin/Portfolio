@@ -17,10 +17,10 @@ function Introduction() {
       </motion.div>
       <motion.div
         className="intro-text"
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1, delay: 0.4 }}
-        whileHover={{ x: 40, y: -8 }} 
+        // initial={{ opacity: 0, x: -50 }}
+        // animate={{ opacity: 1, x: 0 }}
+        // transition={{ duration: 1, delay: 0.4 }}
+        // whileHover={{ x: 40, y: -8 }} 
       >
         <h2>Hey, I'm Garima Yadav</h2>
         <pre style={{ fontSize: '16px', fontFamily: 'monospace' }}>
@@ -33,10 +33,11 @@ that follows best practices and industry standards.
 I am always looking for new challenges and opportunities to grow as a developer.  
 
 
-HAVE FUN 👽 ! 
+HAVE FUN with Photo👽 ! 
             `}
         </pre>
       </motion.div>
+      
 
     {/* <div className='intro-gif'>
         <img src={pp} alt="Profile" />

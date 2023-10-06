@@ -12,7 +12,7 @@ function Navbar() {
       <ul className="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="/portfolio">Projects</a></li>
         <li><a href="/contact">Contact</a></li>
         <li><a href="https://github.com/firedrakesin"><FontAwesomeIcon icon={faGithub} /></a></li>
         <li><a href="https://www.linkedin.com/in/garima-1yadav/"><FontAwesomeIcon icon={faLinkedin} /></a></li>

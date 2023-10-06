@@ -42,7 +42,7 @@ body {
   padding: 20px;
   color: rgb(53, 162, 159);
   margin: 40px;
-  margin-left: 60px;
+  margin-left: 250px;
 }
 
 .profile-pic {
@@ -78,3 +78,36 @@ body {
   width: 400px;
   margin-left: 40px;
 }
+
+.skil{
+  color: rgb(151, 254, 237);
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  animation: moveLeft 400s linear infinite; /* Adjust the animation duration as needed */
+  color: aliceblue;
+  size: 1000px;
+}
+
+
+.logo-slider {
+  background-color: rgb(11, 102, 106); /* Replace with your desired background color */
+  padding: 10px; /* Adjust padding as needed */
+  margin: 40px;
+  margin-left: 250px;
+  margin-right: 200px;
+}
+
+.skill-icon {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px; /* Adjust the icon size as needed */
+}
+
