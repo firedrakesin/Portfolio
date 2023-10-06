@@ -12,6 +12,8 @@ body {
   background-color: rgb(11, 102, 106);
   color: white;
   padding: 10px 20px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .logo img {
@@ -99,7 +101,7 @@ body {
   padding: 10px; /* Adjust padding as needed */
   margin: 40px;
   margin-left: 250px;
-  margin-right: 200px;
+  margin-right: 250px;
 }
 
 .skill-icon {

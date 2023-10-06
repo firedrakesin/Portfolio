@@ -33,11 +33,11 @@ that follows best practices and industry standards.
 I am always looking for new challenges and opportunities to grow as a developer.  
 
 
-HAVE FUN with Photo👽 ! 
+HAVE FUN with Photo 👽 ! 
             `}
         </pre>
       </motion.div>
-      
+       
 
     {/* <div className='intro-gif'>
         <img src={pp} alt="Profile" />
