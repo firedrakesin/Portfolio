@@ -27,7 +27,7 @@ const LogoSlider = () => {
       <div className="logo-slider">
         <Slider {...settings}>
           <div className="skills"><div className="skill-icon">
-              <img src={js} /></div></div>
+              <img src={js} alt='JavaScript'/></div></div>
           <div className="skills"><div className="skill-icon">
               <FontAwesomeIcon icon={faPython} /></div></div>
           <div className="skills"><div className="skill-icon">
