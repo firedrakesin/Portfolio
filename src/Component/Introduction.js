@@ -24,7 +24,7 @@ function Introduction() {
       >
         <h2>Hey, I'm Garima Yadav</h2>
         <pre style={{ fontSize: '16px', fontFamily: 'monospace' }}>
-            {`I am a backend developer with expertise in Node.js.
+            {`I am a full stack developer with expertise in React.js, Node.js and Python.
 I have experience in building scalable, secure and reliable web applications
 using various frameworks and technologies. 
 I enjoy solving complex problems and learning new skills. 

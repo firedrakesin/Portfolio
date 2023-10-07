@@ -113,3 +113,71 @@ body {
   font-size: 48px; /* Adjust the icon size as needed */
 }
 
+/* CSS for Mywork component */
+.mywork-gallery {
+  display: flex;
+  justify-content: center;
+  margin: 0 250px; /* Set left and right margins to 250px */
+  flex-wrap: wrap;
+  
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.image-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-hover:hover {
+  transform: translateY(-5px); /* Lift up the image slightly on hover */
+}
+
+.work{
+  color: rgb(151, 254, 237);
+  text-align: center;
+}
+.wo{
+  color: rgb(151, 254, 237);
+  text-align: center;
+  font-size: large;
+}
+
+.workk{
+  color: rgb(151, 254, 237);
+  text-align: center;
+  margin: 40px;
+}
+
+.talkbutt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-color: rgb(151, 254, 237); /* Green background color */
+  border: 2px solid #4CAF50; /* Green border color */
+  border-radius: 10px; /* Border radius for rounded corners */
+  color: rgb(2, 51, 94); /* Text color */
+  font-size: 16px; /* Text font size */
+  text-align: center;
+  cursor: pointer; /* Cursor style on hover */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition on hover */
+  margin-left: 650px;
+  margin-bottom: 80px;
+
+}
+
+.talkbutt:hover {
+  background-color: white; /* Change background color on hover */
+  color: #4CAF50; /* Change text color on hover */
+}
+
+
+
+.other{
+  color: rgb(151, 254, 237);
+  text-align: center;
+}
+
