@@ -5,6 +5,7 @@ import ParticlesBackground from './Component/ParticlesBackground';
 import LogoSlider from './Component/LogoSlider ';
 import Mywork from './Component/Mywork';
 import Other from './Component/Other';
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <LogoSlider/>
       <Mywork/>
       <Other/>
+      <Footer/>
     </div>
   );
 }

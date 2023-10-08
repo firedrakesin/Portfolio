@@ -137,6 +137,7 @@ body {
 .work{
   color: rgb(151, 254, 237);
   text-align: center;
+  padding-top: 20px;
 }
 .wo{
   color: rgb(151, 254, 237);
@@ -147,7 +148,7 @@ body {
 .workk{
   color: rgb(151, 254, 237);
   text-align: center;
-  margin: 40px;
+  margin: 20px;
 }
 
 .talkbutt {
@@ -174,10 +175,82 @@ body {
   color: #4CAF50; /* Change text color on hover */
 }
 
-
-
 .other{
   color: rgb(151, 254, 237);
   text-align: center;
 }
 
+.otherbg{
+  background-color: rgb(11, 102, 106);
+  margin-left: 250px;
+  margin-right: 250px;
+
+}
+
+.rounded-image{
+  width: 300px;
+  height: 250px;
+  margin: 8px;
+  margin-left: 22px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-style: groove;
+
+}
+
+/* Footer Styles */
+.footer {
+  background-color: rgb(11, 102, 106); /* Background color for the footer */
+  color: rgb(151, 254, 237); /* Text color */
+  padding: 20px 0; /* Padding top and bottom */
+  text-align: center; /* Center-align text */
+  margin-top: 40px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 40px;
+  
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Maximum width for content */
+  margin: 0 auto; /* Center content horizontally */
+  padding: 0 20px; /* Padding left and right */
+}
+
+.footer-logo {
+  font-size: 24px; /* Font size for the logo */
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links a {
+  color: #fff; /* Link color */
+  text-decoration: none;
+  margin-right: 20px; /* Spacing between links */
+}
+
+.footer-social {
+  margin-top: 20px; /* Spacing from content above */
+}
+
+.social-icon {
+  font-size: 20px; /* Font size for social icons */
+  color: #fff; /* Icon color */
+  text-decoration: none;
+  margin-right: 10px; /* Spacing between icons */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Hover color for social icons */
+}
+
+.footer-text {
+  margin-top: 20px; /* Spacing from content above */
+  font-size: 14px; /* Font size for copyright text */
+}

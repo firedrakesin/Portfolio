@@ -31,7 +31,7 @@ const Mywork = () => {
   return (
     <>
     <h2 className='work'>MY WORK</h2>
-    <p className='workk'>Here are a few past design projects I've worked on. Want to know more? Let's talk</p>
+    <p className='workk'>Here are a few past projects I've worked on. Want to know more? Let's talk</p>
     <div className="mywork-gallery">
       {projects.map((project, index) => (
         <div className="gallery-item" key={index}>
