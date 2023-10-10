@@ -8,9 +8,9 @@ const Other = () => {
 
   return (
     <>
-    <div className='otherbg'>
-      <h2 className='work'>WHAT ELSE I DO ?</h2>
-      <p className='workk'>Living, learning, & leveling up<br/> one day at a time.</p>
+    <div >
+      <h2 className='wor'>WHAT ELSE I DO ?</h2>
+      <p className='wor'>Living, learning, & leveling up<br/> one day at a time.</p>
       <img src={In} alt='in' className='rounded-image' />
       <img src={Por} alt='por' className='rounded-image'  />
       <img src={chat} alt='chat' className='rounded-image'  />
